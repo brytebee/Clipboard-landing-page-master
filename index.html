@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
@@ -7,6 +8,9 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
   <title>Frontend Mentor | Clipboard landing page</title>
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/e70807fc14.js" crossorigin="anonymous"></script>
 
   <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap" rel="stylesheet">
@@ -17,85 +21,136 @@
   <!-- Stylesheet -->
   <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
+  <img class="landing-page-logo" src="images/logo.svg" alt="page-logo">
+  <img class="top-img" src="images/bg-header-desktop.png" alt="top-img">
 
-  <h2>A history of everything you copy</h2>
+  <div class="top-text">
+    <h2>A history of everything you copy</h2>
 
-  <p>Clipboard allows you to track and organize everything you
-  copy. Instantly access your clipboard on all your devices.</p>
+    <p>Clipboard allows you to track and organize everything you
+      copy. Instantly access your clipboard on all your devices.</p>
 
-  <button type="button" name="button">Download for iOS</button>
-  <button type="button" name="button">Download for Mac</button>
+    <button class="btn btn-lg btn-success" type="button" name="button">Download for iOS</button>
+    <button class="btn btn-lg btn-primary" type="button" name="button">Download for Mac</button>
 
+    <h5>Keep track of your snippets</h5>
 
-  <h5>Keep track of your snippets</h5>
+    <p>Clipboard instantly stores any item you copy in the cloud,
+      meaning you can access your snippets immediately on all your
+      devices. Our Mac and iOS apps will help you organize everything.</p>
+  </div>
 
-  <p>Clipboard instantly stores any item you copy in the cloud,
-  meaning you can access your snippets immediately on all your
-  devices. Our Mac and iOS apps will help you organize everything.</p>
+  <div class="column-part">
+    <img class="desktop-img" src="images/image-computer.png" alt="desktop-image">
 
-  <h6>Quick Search</h6>
+    <div class="column-text">
+      <div class="col-text">
+        <h6>Quick Search</h6>
 
-  <p>Easily search your snippets by content, category, web address, application, and more.</p>
+        <p>Easily search your snippets by content, category, web address, application, and more.</p>
+      </div>
+      <div class="col-text">
+        <h6>iCloud Sync</h6>
 
-  <h6>iCloud Sync</h6>
+        <p>Instantly saves and syncs snippets across all your devices.</p>
+      </div>
+      <div class="col-text">
+        <h6>Complete History</h6>
 
-  <p>Instantly saves and syncs snippets across all your devices.</p>
+        <p>Retrieve any snippets from the first moment you started using the app.</p>
+      </div>
+    </div>
+  </div>
 
-  <h6>Complete History</h6>
+  <div class="bottom-text">
+    <h5>Access Clipboard anywhere</h5>
 
-  <p>Retrieve any snippets from the first moment you started using the app.</p>
+    <p>Whether you’re on the go, or at your computer, you can access all your Clipboard
+      snippets in a few simple clicks.</p>
+  </div>
 
-  <h5>Access Clipboard anywhere</h5>
+  <img src="images/image-devices.png" alt="devices">
 
-  <p>Whether you’re on the go, or at your computer, you can access all your Clipboard
-  snippets in a few simple clicks.</p>
+  <div class="bottom-text">
+    <h5>Supercharge your workflow</h5>
 
-  <h5>Supercharge your workflow</h5>
+    <p>We’ve got the tools to boost your productivity.</p>
+  </div>
 
-  <p>We’ve got the tools to boost your productivity.</p>
+  <div class="bottom-card">
+    <div class="card-stuff">
+      <img class="cards-img" src="images/icon-blacklist.svg" alt="blacklist-image">
+      <h6>Create blacklists</h6>
 
-  <h6>Create blacklists</h6>
+      <p>Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>
+    </div>
+    <div class="card-stuff">
+      <img class="cards-img" src="images/icon-text.svg" alt="text-image">
+      <h6>Plain text snippets</h6>
 
-  <p>Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>
+      <p>Remove unwanted formatting from copied text for a consistent look.</p>
+    </div>
+    <div class="card-stuff">
+      <img class="cards-img" src="images/icon-preview.svg" alt="preview-image">
+      <h6>Sneak preview</h6>
 
-  <h6>Plain text snippets</h6>
+      <p>Quick preview of all snippets on your Clipboard for easy access.</p>
+    </div>
+  </div>
 
-  <p>Remove unwanted formatting from copied text for a consistent look.</p>
+  <div class="bottom-images">
+    <img class="sponsors" src="images\logo-google.png" alt="">
+    <img class="sponsors" src="images\logo-ibm.png" alt="">
+    <img class="sponsors" src="images\logo-microsoft.png" alt="">
+    <img class="sponsors" src="images\logo-hp.png" alt="">
+    <img class="sponsors" src="images\logo-vector-graphics.png" alt="">
+  </div>
 
-  <h6>Sneak preview</h6>
+  <div class="bottom-text">
+    <h5>Clipboard for iOS and Mac OS</h5>
 
-  <p>Quick preview of all snippets on your Clipboard for easy access.</p>
+    <p>Available for free on the App Store. Download for Mac or iOS, sync with iCloud
+      and you’re ready to start adding to your clipboard.</p>
+  </div>
 
-  <h5>Clipboard for iOS and Mac OS</h5>
-
-  <p>Available for free on the App Store. Download for Mac or iOS, sync with iCloud
-  and you’re ready to start adding to your clipboard.</p>
-
-  <button type="button" name="button">Download for iOS</button>
-  <button type="button" name="button">Download for Mac</button>
+  <button class="btn btn-lg btn-success" type="button" name="button">Download for iOS</button>
+  <button class="btn btn-lg btn-primary" type="button" name="button">Download for Mac</button>
 
   <footer>
-    <div class="">
-      <a href="#">FAQs</a>
-      <a href="#">Contact Us</a>
-    </div>
-    <div class="">
-      <a href="#">Privacy Policy</a>
-      <a href="#">Press Kit</a>
-    </div>
-    <div class="">
-      <a href="#">Install Guide</a>
+    <div class="footing">
+      <img class="footer-logo" src="images/logo.svg" alt="page-logo">
+      <div class="footer-link-master">
+        <div class="footer-link">
+          <a href="#">FAQs</a>
+          <a href="#">Contact Us</a>
+        </div>
+        <div class="footer-link">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Press Kit</a>
+        </div>
+        <div class="footer-link">
+          <a href="#">Install Guide</a>
+        </div>
+      </div>
+      <div class="footer-socials">
+        <a class="social-img" href="#"><i class="fab fa-facebook-square"></i></a>
+        <a class="social-img" href="#"><i class="fab fa-twitter"></i></a>
+        <a class="social-img" href="#"><i class="fab fa-instagram"></i></a>
+      </div>
     </div>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
       Coded by <a href="https://www.linkedin.com/in/brytebee/">brytebee</a>.
     </p>
+
   </footer>
 
   <!-- Bootstrap jquery cdn -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
 </body>
+
 </html>

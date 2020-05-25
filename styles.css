@@ -1,0 +1,147 @@
+a {
+  margin-top: 1.5rem;
+  margin-left: 1rem;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #26baa4;
+}
+body {
+  font-family: 'Bai Jamjuree', sans-serif;
+  margin: 0;
+  text-align: center;
+  width: 100;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  padding-top: 24px;
+}
+.attribution a { color: royalblue; }
+
+h2, h4, h5, h6 {
+  font-weight: 600;
+}
+
+p {
+  font-size: .9em;
+}
+
+/* Top Images */
+.landing-page-logo {
+  position: absolute;
+  left: 45%;
+  top: 15%;
+}
+
+.top-img {
+  width: 100%;
+}
+
+/* Top Text */
+.top-text {
+  padding: 0 30% 5%;
+}
+
+/* Button */
+.btn {
+  border-radius: 28px;
+  font-size: .9em;
+  margin: 1.5rem .5rem 5.5rem;
+  padding: 10px 25px;
+  box-shadow: 0 10px 14px -7px #276873;
+}
+
+.btn:hover {
+ opacity: 0.5;
+}
+
+/* Column Part */
+.column-part {
+  display: flex;
+}
+
+.column-text {
+  align-self: center;
+  padding: 10%;
+  text-align: left;
+}
+
+.col-text {
+  padding-bottom: 3rem;
+}
+
+/* Bottom Section */
+
+.col-text p{
+  font-size: .8rem;
+}
+
+.bottom-text {
+  padding: 5% 30%;
+}
+
+.bottom-card {
+  display: flex;
+  flex-direction: row;
+  border: none;
+}
+
+.card-stuff {
+  padding: 6%;
+}
+
+.cards-img {
+  margin-bottom: 32px;
+}
+
+.bottom-images, .sponsors {
+  padding: 2rem;
+}
+
+
+/* Footer */
+footer {
+  background-color: lightgrey;
+  display: flex;
+  flex-direction: column;
+}
+
+.footing {
+  display: inline-flex;
+}
+
+.footer-logo {
+  width: 30px;
+  height: 30px;
+  margin-left: 150px;
+  margin-top: 50px;
+}
+
+.footer-link-master {
+  display: flex;
+  margin-left: 100px;
+}
+
+.footer-link {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+.footer-socials {
+  margin-top: 50px;
+  margin-left: 210px;
+}
+
+.social-img {
+  background: none;
+}
+.social-img:hover {
+  color: #26baa4;
+}
